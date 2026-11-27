@@ -285,7 +285,7 @@ body.loaded .preloader {
   border-color: var(--line-dark);
 }
 .header.is-hidden {
-  transform: translateY(calc(-100% - 20px));
+  transform: none;
 }
 .header__logo img {
   height: 40px;
