@@ -14,7 +14,7 @@ const CONFIG = {
     { nome: "Tatiana", cargo: "Consultora", whatsapp: "5512974023999" },
   ],
 
-  mensagemPadrao: "Olá! Vim pelo site da Imperial Marmoraria e gostaria de um orçamento.",
+  mensagemPadrao: "Olá! Vim pelo site da Marmoraria Imperial e gostaria de um orçamento.",
 
   /* ---------- Redes sociais (deixe "" para esconder) ---------- */
   instagram: "https://www.instagram.com/marmoresimperial/",
