@@ -450,7 +450,7 @@
     const v = (C.videoComoChegar || "").trim();
     const yt = v.match(/(?:youtube\.com\/(?:watch\?v=|shorts\/|embed\/)|youtu\.be\/)([\w-]{11})/);
     if (yt) {
-      box.innerHTML = `<iframe src="https://www.youtube-nocookie.com/embed/${yt[1]}?rel=0" title="Como chegar na Imperial Marmoraria" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`;
+      box.innerHTML = `<iframe src="https://www.youtube-nocookie.com/embed/${yt[1]}?rel=0" title="Como chegar na Marmoraria Imperial" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`;
     } else if (v) {
       box.innerHTML = `<video src="${esc(v)}" controls playsinline preload="metadata" ${C.videoCapa ? `poster="${esc(C.videoCapa)}"` : ""}></video>`;
     } else {
@@ -505,7 +505,7 @@
     const c = cons[+(form.elements.para?.value) || 0];
     if (!c) return;
     const text =
-      `Olá, ${c.nome}! Vim pelo site da Imperial Marmoraria.\n\n` +
+      `Olá, ${c.nome}! Vim pelo site da Marmoraria Imperial.\n\n` +
       `*Nome:* ${form.elements.nome.value.trim()}\n` +
       `*WhatsApp:* ${form.elements.telefone.value.trim()}\n` +
       `*Ambiente:* ${form.elements.ambiente.value}\n` +
