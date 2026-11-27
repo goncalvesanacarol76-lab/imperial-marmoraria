@@ -10,14 +10,14 @@ const CONFIG = {
   /* ---------- WhatsApp das consultoras ----------
      Só números: 55 + DDD + número. Ex.: "5512991234567" */
   consultoras: [
-    { nome: "Paula",   cargo: "Consultora", whatsapp: "55129XXXXXXXX" },
-    { nome: "Tatiana", cargo: "Consultora", whatsapp: "55129XXXXXXXX" },
+    { nome: "Paula",   cargo: "Consultora", whatsapp: "5512974060837" },
+    { nome: "Tatiana", cargo: "Consultora", whatsapp: "5512974023999" },
   ],
 
   mensagemPadrao: "Olá! Vim pelo site da Imperial Marmoraria e gostaria de um orçamento.",
 
   /* ---------- Redes sociais (deixe "" para esconder) ---------- */
-  instagram: "",   // ex.: "https://www.instagram.com/imperialmarmoraria"
+  instagram: "https://www.instagram.com/marmoresimperial/",
   facebook:  "",   // ex.: "https://www.facebook.com/imperialmarmoraria"
 
   /* ---------- Endereço (usado no Google Maps) ----------
